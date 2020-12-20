@@ -1,0 +1,69 @@
+body {
+    background-image: url(hanoi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(88, 190, 139);
+    width: 1200px;
+    height: 600px;
+    position: relative;
+    opacity: 0.9;
+}
+
+.container .disk {
+    position: absolute;
+    height: 20px;
+    transition: 2s;
+}
+
+.btn-container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn {
+    font-size: 2rem;
+    padding: 5px 1rem;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#horizontal-bar {
+    height: 10px;
+    width: 100%;
+    background-color: DarkSlateBlue ;
+    position: absolute;
+    bottom: 70px;
+    margin: 0 auto;
+}
+
+.vertical-bar {
+    height: 180px;
+    width: 10px;
+    background-color: DarkSlateBlue ;
+    position: absolute;
+    bottom: 70px;
+}
+.bar1 {
+    left: 300px;
+}
+.bar2 {
+    left: 600px;
+}
+.bar3 {
+    left: 900px;
+}
